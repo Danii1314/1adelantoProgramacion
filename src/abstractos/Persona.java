@@ -9,16 +9,6 @@ public abstract class Persona {
     protected String emaill;
     protected LocalDate fechaNacimiento;
    
-    public Persona() {
-    }
-
-    public Persona(String id, String nombre, String emaill, LocalDate fechaNacimiento) {
-        this.id = id;
-        this.nombre = nombre;
-        this.emaill = emaill;
-        this.fechaNacimiento = fechaNacimiento;
-    }
-
     public String getId() {
         return id;
     }
@@ -57,7 +47,7 @@ public abstract class Persona {
                 + fechaNacimiento + "]";
     }
 
-    public void mostrarInformacion(){ }
+   
     
 
 }
