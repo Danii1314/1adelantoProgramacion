@@ -31,7 +31,7 @@ public class mienbro extends Persona implements asistible,evaluable,Innerpagable
     public void RegistrarPeso(){}       //falta Implementar Logica (1 Adelanto)
 
 
-    
+    //comentario prueba 
 
     
 
