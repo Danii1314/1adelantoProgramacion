@@ -7,10 +7,11 @@ import Interfaces.evaluable;
 import abstractos.Persona;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 import java.time.LocalDate;
 
 public class mienbro extends Persona implements asistible,evaluable,Innerpagable {
-
+Scanner teclado = new Scanner(System.in)
     private tipoMenbrecia tipoMenbrecia;
     private EstadoMenbrecia estado;
     private HashMap<LocalDate, Double>registroPeso;
@@ -26,9 +27,23 @@ public class mienbro extends Persona implements asistible,evaluable,Innerpagable
         this.medicionesCorporales = medicionesCorporales;
     }
 
-    public void ActuallizarMedidas(){}
+    public void ActuallizarMedidas(int pecho, int espalda, int estatura ){
+
+        System.out.println("ingrese las nueva medida de pecho");
+        pecho=teclado.nextInt();
+        System.out.println("ingrese las nueva medida de espalda");
+        espalda=teclado.nextInt();
+        System.out.println("ingrese las nueva medida de estatura");
+        estatura=teclado.nextInt();
+        
+        
+    }
     public void AgregarRutina(){}
-    public void RegistrarPeso(){}       //falta Implementar Logica (1 Adelanto)
+    
+    public void RegistrarPeso(int peso){
+        System.out.println("ingrese su peso actual ");
+        peso=teclado.nextInt();
+     }       
 
 
     //comentario prueba 
