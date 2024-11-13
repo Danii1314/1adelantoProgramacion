@@ -11,7 +11,7 @@ import java.util.Scanner;
 import java.time.LocalDate;
 
 public class mienbro extends Persona implements asistible,evaluable,Innerpagable {
-Scanner teclado = new Scanner(System.in)
+Scanner teclado = new Scanner(System.in);
     private tipoMenbrecia tipoMenbrecia;
     private EstadoMenbrecia estado;
     private HashMap<LocalDate, Double>registroPeso;
