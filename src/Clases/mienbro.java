@@ -45,7 +45,23 @@ Scanner teclado = new Scanner(System.in);
         peso=teclado.nextInt();
      }       
 
+     public void Rigitrarentrada(){}
 
+     public void registrarsalida(){}
+
+     public void obtenerHistorialAsistencia(){}
+
+     public void generarpago(){}
+
+     public void obtenerMiHistorialPagos(){}
+
+     public void actualizarEstadoDePago(){}
+
+     public void calcularProgreso(){}
+
+     public void establecerMetas(){}
+
+     
     //comentario prueba 
 
     
